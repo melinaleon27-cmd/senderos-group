@@ -1,45 +1,34 @@
-```markdown
-# Senderos Group
+# Senderos Group — Proyecto Final Front-End
 
-## Descripción
+Sitio web académico para una empresa de servicios y experiencias turísticas.
 
-Senderos Group es un proyecto de e-commerce desarrollado como parte del curso de Front End.
+## Cómo abrir el proyecto
+1. Descargá y descomprimí la carpeta.
+2. Abrí `senderos_group_final` desde Visual Studio Code.
+3. Abrí `index.html` en el navegador. Recomendado: usar la extensión **Live Server** de VS Code.
+4. Navegá por las páginas desde el menú principal.
 
-La página representa una empresa dedicada al turismo y ofrece diferentes servicios relacionados con traslados turísticos y experiencias, incluyendo visitas a bodegas ya que se especializa en Enoturismo.
+## Estructura
+- `index.html`: página de inicio.
+- `servicios.html`: descripción de servicios.
+- `productos.html`: catálogo dinámico.
+- `carrito.html`: selección de productos.
+- `contacto.html`: formulario de contacto.
+- `css/styles.css`: estilos y diseño responsive.
+- `js/productos.js`: arreglo de objetos y renderizado del catálogo.
+- `js/carrito.js`: operaciones del carrito.
+- `js/contacto.js`: validación e interacción del formulario.
+- `js/app.js`: funciones compartidas y menú responsive.
+- `assets/`: imágenes SVG de reemplazo.
 
-## Servicios
+## Funcionalidades
+- Navegación entre cinco páginas HTML.
+- Diseño adaptable con CSS Grid, Flexbox y media queries.
+- Catálogo generado dinámicamente desde un arreglo de objetos JavaScript.
+- Buscador de productos.
+- Eventos del DOM para agregar, quitar y modificar cantidades.
+- Carrito persistente mediante `localStorage`.
+- Formulario con validación HTML y respuesta mediante JavaScript.
 
-El sitio presenta diferentes propuestas para viajeros:
-
-- Traslados privados.
-- Traslados desde y hacia el aeropuerto.
-- Visitas a bodegas.
-- Experiencias enológicas.
-- Servicios turísticos personalizados.
-
-## Tecnologías utilizadas
-
-Para desarrollar el proyecto se utilizaron:
-
-- HTML5
-- CSS3
-- Flexbox
-- CSS Grid
-- Media Queries
-- Google Fonts
-- Formspree
-
-## Características
-
-El sitio cuenta con:
-
-- Navegación interna.
-- Sección de productos organizada mediante Flexbox.
-- Sección de reseñas organizada mediante Grid.
-- Formulario de contacto funcional mediante Formspree.
-- Contenido multimedia.
-- Diseño responsive para diferentes tamaños de pantalla.
-
-## Objetivo
-
-El objetivo del proyecto es aplicar los conocimientos adquiridos durante el curso de Front End mediante la creación de una página web con características de una e-commerce turística.
+## Importante
+Los precios son ficticios y se utilizan únicamente para demostrar el funcionamiento del carrito en el trabajo académico. El formulario no envía información a un servidor: valida los campos y muestra un mensaje en pantalla.
